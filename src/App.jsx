@@ -1,8 +1,10 @@
 'use client'
+import bg from "./images/bg.jpg";
 import "./App.css";
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+
 
 
 const navigation = [
@@ -78,7 +80,15 @@ export default function App() {
       </header>
 
       {/* Hero Section */}
-      <main className="hero pt-20 flex items-center justify-center">
+<main
+  className="hero pt-20 flex items-center justify-center"
+  style={{
+    backgroundImage: `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
+  }}
+>
         <div className="mx-auto max-w-2xl text-center py-32 px-4 sm:py-40 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-white sm:text-6xl">Hi, I’m <span style={{color:"#4f46e5", textShadow:"0 0 15px rgba(99,102,241,0.7)"}}>Naveeta </span>Kumari</h1>
           <p className="mt-6 text-lg text-white">
@@ -86,7 +96,7 @@ export default function App() {
           </p>
           <div className="mt-10 flex justify-center gap-6">
             <a
-              href="/src/assets/resume.pdf"
+              href="/resume.pdf"
               className="rounded-md bg-indigo-600 px-6 py-3 text-white font-semibold hover:bg-indigo-500 transition"
             >
               
