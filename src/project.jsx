@@ -1,25 +1,27 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-
+import gh from "./images/gh.png";
+import medic from "./images/medic.png";
+import booknest from "./images/booknest.png";
 const Projects = () => {
   const projects = [
     {
       title:  "Grammar Hub",
       desc: "A web app to help users improve their grammar skills with interactive exercises and lessons.",
-      img: "src/images/gh.png",
+      img: gh,
       github: "https://github.com/navitak217-design/web2",
     },
     {
      title: "BookNest (MERN Stack)",
       desc: "A full-stack book management web application built using MongoDB, Express, React and Node.js where users can explore and manage books.",
-      img: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      img: booknest,
       github: "https://github.com/navitak217-design/Booknest",
     },
     {
      
   title: "Medic AI Website",
   desc: "A medical education website with an AI chatbot that provides health information and helps users learn medical topics.",
-  img: "src/images/medic.png",
+  img: medic,
   github: "https://github.com/navitak217-design/Medic-AI/",
 
     },
