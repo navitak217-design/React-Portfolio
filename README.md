@@ -5,7 +5,7 @@ This is my personal portfolio website built using **React.js**. It showcases my 
 ---
 
 ## 🚀 Live Demo
-👉 https://navitak217-design.github.io/React-Portfolio/
+👉https://naveeta.netlify.app/
 
 
 
