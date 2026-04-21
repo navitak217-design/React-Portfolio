@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-   { name: 'Home', href: 'bg-white' },
+   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
@@ -81,7 +81,7 @@ export default function App() {
       </header>
 
       {/* Hero Section */}
-<main
+<main id="home"
   className="hero pt-20 flex items-center justify-center"
   style={{
     backgroundImage: `url(${bg})`,
