@@ -8,7 +8,7 @@ const Footer = () => {
 
         {/* About */}
         <div>
-          <h3 className="text-xl font-bold text-white mb-4">Navita Kumari</h3>
+          <h3 className="text-xl font-bold text-white mb-4">Naveeta Kumari</h3>
           <p>
             I am a Web Developer skilled in HTML, CSS, JavaScript, React and basic MERN stack. I love creating responsive, modern websites.
           </p>
